@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Proyecto</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        max-width: 600px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    caption {
+        background-color: #0078d7;
+        color: white;
+        font-size: 1.3em;
+        padding: 12px;
+        font-weight: bold;
+    }
+
+    th, td{
+        text-align: left;
+        padding: 10px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    td {
+        color: #333;
+    }
+
+    td a {
+        color: #0078d7;
+        text-decoration: none;
+    }
+
+    td a:hover {
+        text-decoration: underline;
+    }
+    th {
+        width: 30%;
+        background-color: #f9f9f9;
+    }
+
+    tr:last-child td{
+        border-bottom: none;
+    }
+
+    .autor {
+        text-align: right;
+        margin-top: 15px;
+        font-style: italic;
+        color: #555;
+    }
+</style>
+</head>
+<body>
+
+    <div>
+        <table>
+            <caption>wenjin</caption>
+            <tr>
+                <th>EcodeRide</th>
+                <td><a href="https://github.com/TzerK-LAST/EcoRide-simulador-de-alquiler/blob/main/EcoRide.py">Mi Proyecto Web</a></td>
+            </tr>
+            <tr>
+                <th>Descripción</th>
+                <td>Una página para mostrar mis trabajos y práctica de programación.</td>
+            </tr>
+            <tr>
+                <th>Tecnologías</th>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>En desarrollo</td>
+            </tr>
+        </table>
+
+        <p class="autor">Hecho por: <strong>Tu Nombre Aquí</strong></p>
+    </div>
+
+</body>
+</html>
